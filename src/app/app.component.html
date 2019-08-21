@@ -6,3 +6,9 @@
 <button (click)="maiusculo()">maiusculo</button><br>
 <button (click)="minusculo()">minusculo</button>
 <div [title]="nome.length">Nome: {{nome}}</div>
+<ul>
+  <li *ngFor="let item of ['Ana','Pedro','José']">{{item}}</li>
+</ul>
+<ul>
+  <li *ngFor="let item of lista">{{item}}</li>
+</ul>

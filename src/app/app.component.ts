@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent  
 {
   private nome:String='Arthur';
+
+  //aqui ele cria um array e manda para o codigo
+  private lista:string[]=['Ana','Pedro','José'];
+
   maiusculo():void
   {
     this.nome=this.nome.toUpperCase();
