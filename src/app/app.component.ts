@@ -12,4 +12,8 @@ export class AppComponent
   {
     this.nome=this.nome.toUpperCase();
   }  
+  minusculo():void
+  {
+    this.nome=this.nome.toLowerCase();
+  }
 }

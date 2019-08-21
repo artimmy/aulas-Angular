@@ -1,5 +1,8 @@
-<div>Nome:{{nome}}</div>
+<div>Nome:{{nome}}</div>  
 <div>
   <label>Nome:</label>
   <input [(ngModel)]="nome"> 
 </div>
+<button (click)="maiusculo()">maiusculo</button><br>
+<button (click)="minusculo()">minusculo</button>
+<div [title]="nome.length">Nome: {{nome}}</div>
