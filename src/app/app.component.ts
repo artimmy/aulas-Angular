@@ -20,4 +20,8 @@ export class AppComponent
   {
     this.nome=this.nome.toLowerCase();
   }
+
+  add():void{
+    this.lista.push(this.nome);
+  }
 }
